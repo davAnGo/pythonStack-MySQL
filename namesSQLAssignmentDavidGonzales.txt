@@ -1,0 +1,5 @@
+SELECT * FROM names;
+INSERT INTO names (name) VALUES ("David Gonzales");
+INSERT INTO names (name) VALUES ("Tony Stark"), ("Bruce Banner");
+DELETE FROM names WHERE id > 0;
+UPDATE names SET name = "Steve Rogers" WHERE id = 11;
